@@ -1,0 +1,70 @@
+/* Step 1 - Add a nice background */
+
+* {
+  box-sizing: border-box;
+}
+body {
+ 
+    
+}
+h1{
+    color: black;
+}
+
+
+/* Step 2 - Add a nice card style */
+.card {
+  float: left;
+  margin: 20px;
+  height: 120px;
+  width: 80px;
+  padding: 20px;
+  color: white;
+    font-size: 30px;
+  text-align: center;
+			background-image: url(http://ppcdn.500px.org/75319705/1991f76c0c6a91ae1d23eb94ac5c7a9f7e79c480/2048.jpg) ;
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+ 
+  
+}
+
+
+/* Step 3 - Add a nice hover effect */
+.card:hover {
+     border: 5px solid white;   
+
+}
+
+/* Step 4 (+4 points) - Write a style for a flipped card */
+.flipped {
+    background-color: black; 
+    
+}
+
+/* Step 5 - Add a nice style to the message element */
+#message {
+  color: black;
+
+}
+
+.restart {
+    font-size: 2rem;
+    padding: 1rem 0.1rem;
+    border-radius: 43rem;
+}
+div#actions {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Step 6 - Add 5 more style changes... */
+/* 1) */
+/* 2) */
+/* 3) */
+/* 4) */
+/* 5) */
